@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Apple Store</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Order details</legend>
+               <label for="product">Product</label> 
+               <select name="product" id="product">
+                <option value="iphone">Iphone</option>
+                <option value="ipad">Ipad</option>
+                <option value="applewatch">AppleWatch</option>
+                <option value="macbook">MacBook</option>
+                <option value="imac">IMac</option>
+                <option value="airpords">AirPods</option>
+                <option value="accessories">Accessories</option>
+                <option value="ipad" selected="selected">Ipad</option>
+            </select>
+            <br />
+            <label for="storage">Storage(GB) for your product</label>
+            <input type="gb" name="storage"/>           
+            <br />
+            <label for="color">Product color</label>
+            <select multiple="color" id="color">
+                <option value="a">Alpine Green</option>
+                <option value="b">Silver</option>
+                <option value="c">Gold</option>
+                <option value="d">Graphite</option>
+                <option value="e">Sierra Blue</option>
+            </select>
+         </fieldset>
+         <fieldset>
+            <legend>Client details</legend>
+            <label for="1stname">First Name</label>
+            <input type="text" name="1stname" id="1stname"/>
+            <br />
+            <label for="2ndname">Last Name</label>
+            <input type="text" name="2ndname" id="2ndname"/>
+            <br />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"/>
+            <br />
+            Sign up for our newslater
+            <input name="signup" type="radio" id="yes" value="Yes"/>
+            <label for="yes">Yes</label>
+            <input name="signup" type="radio" id="no" value="No"/>
+            <label for="no">No</label>
+         </fieldset>
+         <p>
+            <textarea name="terms" cols="40" rows="5" readonly="readonly">Apple Terms and Conditions...</textarea>
+         </p>
+         <p>
+            <input type="submit" name="submit" value="Send"/>
+            <input type="reset" name="reset" value="Clear All"/>
+         </p>
+        </form>
+    </body>
+</html>

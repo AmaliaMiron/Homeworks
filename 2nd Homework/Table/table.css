@@ -1,0 +1,119 @@
+element.style {
+
+}
+.divTable
+{
+    display:table;
+    width:700px;
+    border:2px ;
+    border-color: darkgray;
+    border-spacing:7px;
+    background-color: white;
+}
+
+.divRow1
+{
+   display:table-row;
+   width:auto;
+   border-radius: 1cm;
+   
+}
+
+.divRow2
+{
+   display:flex;
+   width:auto;
+   border-radius: 1cm;
+   justify-content: space-between;
+   
+}
+.divRow3
+{
+   display:flex;
+   width:auto;
+   border-radius: 1cm;
+   justify-content: space-between;
+    padding-top: 0.2cm;
+}
+.divRow4
+{
+   display:table-row;
+   width:auto;
+   border-radius: 1cm;
+   
+}
+.divCell1
+{
+    float:left;
+    display:table-column;
+    width:700px;
+    background-color: gold;
+    border-radius: 0.1cm;
+    
+    
+}
+.divCell2
+{
+    float:left;
+    display:table-column;
+    width:345px;
+    background-color: turquoise;
+    border-radius: 0.1cm;
+    border
+}
+.divCell3
+{
+    float:left;
+    display:table-column;
+    width: 345px;
+    background-color: turquoise;
+    border-radius: 0.1cm;
+    
+    
+}
+.divCell4
+{
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color:steelblue;
+    border-radius: 0.1cm;
+    
+}
+.divCell5
+{
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color: steelblue;
+    border-radius: 0.1cm;
+    
+}
+.divCell6
+{
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color: steelblue;
+    border-radius: 0.1cm;
+    
+}
+.divCell7
+{
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color: steelblue;
+    border-radius: 0.1cm;
+    
+}
+.divCell8
+{
+    float:left;
+    display:table-column;
+    width:700px;
+    background-color:gold;
+    border-radius: 0.1cm;
+    
+}
+

@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.main-nav {
+    display: inline-block;
+    visibility: visible;
+    border: 10px;
+    margin-right: 20px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-nav ul li a {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    background-color:darkcyan;
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid white;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.main-nav ul li a:hover {
+    background-color:indigo;
+}
+
+.logo {
+    width: 950px;
+    margin-left: 40px;
+    height: 250px;
+}
+
+.text {
+   display:flexbox;
+   position: relative;
+    background-color: darkcyan;
+    opacity: 77%;
+    color:white;
+    width: 250px;
+    top: -200px;
+    left: 50px;
+    border-radius: 2%;
+    text-align: justify ;
+    margin: 10px;
+}
+
+.find {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 117px;
+    left: 700px;
+    border: 2px solid;
+    border-radius: 5%;
+    padding: 10px 13px;
+    height: 15px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color: darkcyan;
+    border-color: darkcyan;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    background-color:darkcyan;
+    text-align: center;
+    height: 320px;
+    width: 320px;
+    top: -100px;
+}
+
+.iphonetext {
+    position: absolute;
+    left: 70px;
+    font-size: 20px;
+    color: white;
+   
+}
+
+
+
+.iphone {
+    position: relative;
+    bottom: -60px;
+    left: 40px;
+    width: 240px;
+    height:120px; 
+
+}
+
+
+.ptext {
+    position:absolute;
+    top: 170px;
+    text-align: justify;
+    margin-block:20px ;
+    color: white;
+    border: 10px;
+    right: 17px;
+    left:17px;
+}
+
+.contents {
+    display: flex;
+    position: relative;
+    background-color:darkcyan;
+    text-align: center;
+    height: 320px;
+    width: 320px;
+    top: -420px;
+    left: 355px;
+}
+
+.applewatch {
+    position: absolute;
+    left: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+.applew {
+    position: relative;
+    bottom: -60px;
+    left: 40px;
+    width: 240px;
+    height:120px; 
+}
+
+.atext {
+    position:absolute;
+    top: 170px;
+    text-align: justify;
+    margin-block:20px ;
+    color: white;
+    border: 10px;
+    right: 17px;
+    left:17px;
+}
+
+.categories {
+    display: flex;
+    position: relative;
+    background-color:darkcyan;
+    text-align: center;
+    height: 320px;
+    width: 320px;
+    top: -740px;
+    left: 710px;
+}
+
+
+
+.Categories {
+    position: absolute;
+    left: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+.Mac {
+    position: absolute;
+    top: 50px;
+    text-align: justify;
+    margin-block:20px ;
+    border: 10px;
+    right: 17px;
+    left:17px;
+}
+
+.Ipad {
+    position: absolute;
+    top: 90px;
+    text-align: justify;
+    margin-block:20px ;
+    border: 10px;
+    right: 17px;
+    left:17px;
+}
+
+.Iphone {
+    position: absolute;
+    top: 140px;
+    text-align: justify;
+    margin-block:20px ;
+    border: 10px;
+    right: 17px;
+    left:17px;
+
+}
+
+.AppleWatch {
+    position: absolute;
+    top: 180px;
+    text-align: justify;
+    margin-block:20px ;
+    border: 10px;
+    right: 17px;
+    left:17px;
+}
+
+.Airpods {
+    position: absolute;
+    top: 220px;
+    text-align: justify;
+    margin-block:20px ;
+    border: 10px;
+    right: 17px;
+    left:17px;
+}
+
+.TVHome {
+    position: absolute;
+    top: 260px;
+    text-align: justify;
+    margin-block:20px ;
+    border: 10px;
+    right: 17px;
+    left:17px;
+}
+

@@ -1,0 +1,52 @@
+.element style {
+    
+}
+ 
+  .breeds {
+    text-align: left;
+  }
+  .vl{
+    height: 550px;
+    border-right: 1px solid peru;
+    position:absolute;
+    bottom: 70px;
+    right: 60%;
+}
+.devon {
+    margin-left: 350px ;
+    margin-right: 1px;
+    position: relative;
+    bottom: 130px;
+}
+
+.sphynx {
+    margin-left: 350px ;
+    margin-right: -80px;
+    position: relative;
+    bottom: 130px;
+
+}
+ 
+.scottish {
+    margin-left: 350px ;
+    margin-right: -60px;
+    position: relative;
+    bottom: 130px;
+
+}
+
+.mcoon {
+    margin-left: 350px ;
+    margin-right: -60px;
+    position: relative;
+    bottom: 130px;
+
+}
+
+.brit {
+    margin-left: 350px ;
+    margin-right: -60px;
+    position: relative;
+    bottom: 130px;
+
+}
