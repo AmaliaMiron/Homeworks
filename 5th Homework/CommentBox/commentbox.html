@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Comment Box</title>
+    <link rel="stylesheet" href="cbox.css" />
+    <script src="cbox.js"></script>
+  </head>
+  <body>
+    <h1 class="h1">Comment Box</h1>
+
+    <div class="container">
+      <div class="comments">
+        <p><strong>Comment1</strong></p>
+        <button class="Delete" onclick="deleteCommentElement(event)">
+          Delete
+        </button>
+      </div>
+      <div class="comments">
+        <p><strong>Comment2</strong></p>
+        <button class="Delete" onclick="deleteCommentElement(event)">
+          Delete
+        </button>
+      </div>
+      <div class="comments">
+        <p><strong>Comment3</strong></p>
+        <button class="Delete" onclick="deleteCommentElement(event)">
+          Delete
+        </button>
+      </div>
+    </div>
+    <div class="commbox">
+      <textarea class="textarea" id="addComm"></textarea>
+      <br />
+      <button id="buttonbox" class="addC">Add comment</button>
+    </div>
+  </body>
+</html>

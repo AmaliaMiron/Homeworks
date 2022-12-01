@@ -1,0 +1,75 @@
+body {
+  background-color: lavender;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 650px;
+  text-align: center;
+  color: blueviolet;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 80px;
+}
+
+.comments {
+  background-color: mediumpurple;
+  display: flex;
+  left: 850px;
+  margin: 7px;
+  width: 650px;
+}
+
+.Delete {
+  background-color: ghostwhite;
+  border-color: darkmagenta;
+  margin-left: 440px;
+  margin-top: 10px;
+  width: 55px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: fuchsia;
+}
+
+.commbox {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  margin-left: 850px;
+  margin-top: 80px;
+}
+
+.textarea {
+  border: solid;
+  border-color: rebeccapurple;
+  border-radius: 2pt;
+  height: 180px;
+  width: 800px;
+  margin: 7px;
+}
+
+.addC {
+  display: flex;
+  align-items: center;
+  background-color: ghostwhite;
+  border-radius: 2pt;
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  margin-top: 160px;
+}
