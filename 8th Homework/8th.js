@@ -41,7 +41,7 @@ const car = {
 const cloneCar = {
   ...car,
   modelYear: "2022",
-  settings: { wheels: "4", engine: "2000" },
+  settings: { wheels: "4", engine: "1.6" },
 };
 const mergedcar = { ...car, ...cloneCar };
 console.log(mergedcar);
