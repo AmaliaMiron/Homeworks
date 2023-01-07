@@ -116,10 +116,9 @@ const onPageInit = () => {
   });
 };
 
-modalUpdateButton.addEventListener("click", (event) => {
-    event.target.closest(".modal-overlay").classList.add("hidden");
-  });
-};
-
+// modalUpdateButton.addEventListener("click", (event) => {
+//     event.target.closest(".modal-overlay").classList.add("hidden");
+//   });
+// };
 
 window.addEventListener("load", onPageInit);

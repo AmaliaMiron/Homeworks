@@ -1,0 +1,24 @@
+#secondcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#box {
+  border: 1px solid black;
+  width: 350px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(235, 235, 235);
+}
+
+.img {
+  padding: 5px;
+  background-image: url("./img..jpg");
+  background-size: cover;
+  height: 150px;
+  width: 250px;
+  margin-left: 45px;
+}

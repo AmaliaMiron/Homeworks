@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photo1 {
+  height: 500px;
+  background-image: url("/blouse.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.photo2 {
+  height: 500px;
+  background-image: url("/white.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.photo3 {
+  height: 500px;
+  background-image: url("/green.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}

@@ -1,0 +1,16 @@
+#imagescontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
+.image {
+  border: 1px solid black;
+  width: 250px;
+  height: 150px;
+  margin-left: 10px;
+  background-image: url("./pics.png");
+  background-size: cover;
+}

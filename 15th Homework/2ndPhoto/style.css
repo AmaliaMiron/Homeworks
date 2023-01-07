@@ -1,0 +1,47 @@
+.col {
+  color: white;
+  background-color: royalblue;
+}
+
+.photo1 {
+  position: relative;
+  background-image: url("/firstteh.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+#today {
+  position: absolute;
+  color: white;
+  background-color: royalblue;
+  height: 70px;
+  width: 400px;
+  right: 150px;
+  bottom: -18px;
+  font-size: xx-large;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+#firstcards {
+  background-color: lightgray;
+}
+
+.hr1 {
+  border-top: 3px dashed;
+  max-width: 1220px;
+  margin-left: 38px;
+}
+
+.hr2 {
+  border-top: 3px dashed;
+  max-width: 830px;
+  margin-left: 38px;
+}
+
+.hr3 {
+  border-top: 3px dashed;
+  max-width: 350px;
+  color: gray;
+}
